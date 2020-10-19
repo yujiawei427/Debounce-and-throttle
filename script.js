@@ -60,5 +60,3 @@
     renderDropdown(result.suggestions);  
   };
 })();
-
-ssss
