@@ -60,4 +60,3 @@
     renderDropdown(result.suggestions);  
   };
 })();
-have a TextDecoderStream;
