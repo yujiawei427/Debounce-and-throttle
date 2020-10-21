@@ -1,10 +1,10 @@
 (function() {
-  const url ='https://autocomplete.geocoder.ls.hereapi.com/6.2/suggest.json?apiKey=72BerEM8BoUaqtEXO3xBZwZVNdyQU9OKtlufO1LfP2M&maxresults=5&country=AUS&query=';
+  const url ='/api/autocomplete/';
   document.getElementById('autocomplete-input').addEventListener('keyup', (ele) => {
     //get input value
     let inputValue = ele.target.value;
     //call map api to search
-    throttle(remoteCall, 5000)(inputValue);
+    throttle(remoteCall, 1000)(inputValue);
     
   });
 

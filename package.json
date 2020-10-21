@@ -1,0 +1,28 @@
+{
+  "name": "map-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiawei427/Debounce-and-throttle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujiawei427/Debounce-and-throttle/issues"
+  },
+  "homepage": "https://github.com/yujiawei427/Debounce-and-throttle#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
